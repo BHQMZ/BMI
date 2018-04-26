@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+    <TableRow
+        android:id="@+id/male1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp">
+
+        <TextView
+            style="@style/MyTable"
+            android:text="@string/bfr_m1"/>
+
+        <TextView
+            style="@style/MyTable"
+            android:layout_marginStart="5dp"
+            android:text="@string/bfr_r1"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/male2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp">
+
+        <TextView
+            style="@style/MyTable"
+            android:text="@string/bfr_m2"/>
+
+        <TextView
+            style="@style/MyTable"
+            android:layout_marginStart="5dp"
+            android:text="@string/bfr_r2"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/male3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        >
+
+        <TextView
+            style="@style/MyTable"
+            android:text="@string/bfr_m3"/>
+
+        <TextView
+            style="@style/MyTable"
+            android:layout_marginStart="5dp"
+            android:text="@string/bfr_r3"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/male4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        >
+
+        <TextView
+            style="@style/MyTable"
+            android:text="@string/bfr_m4"/>
+
+        <TextView
+            style="@style/MyTable"
+            android:layout_marginStart="5dp"
+            android:text="@string/bfr_r4"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/male5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp">
+
+        <TextView
+            style="@style/MyTable"
+            android:text="@string/bfr_m5"/>
+
+        <TextView
+            style="@style/MyTable"
+            android:layout_marginStart="5dp"
+            android:text="@string/bfr_r5"/>
+    </TableRow>
+</TableLayout>
